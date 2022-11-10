@@ -1,0 +1,98 @@
+a{
+	transition: 0.7s;
+	color: grey;
+}
+
+a:hover{
+	color: gold;
+	transition: 0.7s;
+}
+
+body{
+	background-image: url("nebula2.webp");
+	background-size: cover;
+	font-size: 20px;
+}
+
+.mein {
+	box-shadow: 0px 0px 50px black;
+	text-align: center;
+	background-color: rgba(256, 256, 256, 0.6);
+	margin-top: 25%;
+	margin-bottom: 25%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 25px;
+
+}
+
+.mihr{
+	border: 1px solid black;
+	margin-top: 0;
+}
+
+.espesial{
+	color: black;
+	margin: auto;
+}
+
+.imagen{
+	border-radius: 100%;
+	margin-left: 42%;
+	margin-right: 42%;
+}
+
+.fotillo{
+	border-radius: 50%;
+	mix-blend-mode: multiply;
+	width: 80px;
+}
+
+.custominput{
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid rgba(256, 256, 256, 0.6);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	border-top-left-radius: 10px;
+	border-top-right-radius:  10px;
+}
+
+.custominput2{
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-top:  1px solid rgba(256, 256, 256, 0.6);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius:  10px;
+}
+
+.botoncin{
+	transition: 0.8s;
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 25px;
+	padding: 3px 15px 3px 15px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.centrali{
+	display: inline-block;
+	margin-top: 5%;
+
+}
+
+.nopad{
+	padding: 0 0 0 0;
+}
+
+.botoncin:hover{
+	transition: 0.3s;
+	
+	background-color: rgba(227, 91, 74, 0.8);
+}
